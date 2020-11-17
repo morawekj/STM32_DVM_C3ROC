@@ -245,13 +245,13 @@ $EndComp
 $Comp
 L Amplifier_Operational:MCP6002-xSN U3
 U 2 1 5FB59DD8
-P 8950 6850
-F 0 "U3" H 8950 6483 50  0000 C CNN
-F 1 "MCP6002-xSN" H 8950 6574 50  0000 C CNN
-F 2 "" H 8950 6850 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8950 6850 50  0001 C CNN
-	2    8950 6850
-	1    0    0    1   
+P 9150 5950
+F 0 "U3" H 9150 6317 50  0000 C CNN
+F 1 "MCP6002-xSN" H 9150 6226 50  0000 C CNN
+F 2 "" H 9150 5950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 9150 5950 50  0001 C CNN
+	2    9150 5950
+	1    0    0    -1  
 $EndComp
 $Comp
 L Amplifier_Operational:MCP6002-xSN U?
@@ -278,12 +278,12 @@ $EndComp
 $Comp
 L Amplifier_Operational:MCP6002-xSN U3
 U 3 1 5FB5F056
-P 11150 6550
-F 0 "U3" H 11108 6596 50  0000 L CNN
-F 1 "MCP6002-xSN" H 11108 6505 50  0000 L CNN
-F 2 "" H 11150 6550 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 11150 6550 50  0001 C CNN
-	3    11150 6550
+P 8850 6800
+F 0 "U3" H 8808 6846 50  0000 L CNN
+F 1 "MCP6002-xSN" H 8808 6755 50  0000 L CNN
+F 2 "" H 8850 6800 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf" H 8850 6800 50  0001 C CNN
+	3    8850 6800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -681,103 +681,38 @@ F 3 "~" H 6550 7700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R25
+L Device:R R?
 U 1 1 5FCC1260
 P 7600 6950
-F 0 "R25" V 7680 6950 50  0000 C CNN
-F 1 "3k3" V 7500 6950 50  0000 C CNN
+F 0 "R?" V 7680 6950 50  0000 C CNN
+F 1 "10K" V 7450 6950 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 7530 6950 50  0001 C CNN
 F 3 "" H 7600 6950 50  0001 C CNN
 	1    7600 6950
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	7800 6950 7750 6950
 $Comp
-L Device:R R27
+L Device:R R?
 U 1 1 5FCD03DB
-P 8000 6950
-F 0 "R27" V 8080 6950 50  0000 C CNN
-F 1 "39k" V 7900 6950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 7930 6950 50  0001 C CNN
-F 3 "" H 8000 6950 50  0001 C CNN
-	1    8000 6950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C26
-U 1 1 5FCD446A
-P 7800 7200
-F 0 "C26" H 7915 7246 50  0000 L CNN
-F 1 "10n" H 7915 7155 50  0000 L CNN
-F 2 "" H 7838 7050 50  0001 C CNN
-F 3 "~" H 7800 7200 50  0001 C CNN
-	1    7800 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R28
-U 1 1 5FCDE78E
-P 8400 6950
-F 0 "R28" V 8480 6950 50  0000 C CNN
-F 1 "3k9" V 8300 6950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 8330 6950 50  0001 C CNN
-F 3 "" H 8400 6950 50  0001 C CNN
-	1    8400 6950
+P 8050 6950
+F 0 "R?" V 8130 6950 50  0000 C CNN
+F 1 "10K" V 7900 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.84x1.00mm_HandSolder" V 7980 6950 50  0001 C CNN
+F 3 "" H 8050 6950 50  0001 C CNN
+	1    8050 6950
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C?
-U 1 1 5FCEA76B
-P 8600 7200
-F 0 "C?" H 8715 7246 50  0000 L CNN
-F 1 "10n" H 8715 7155 50  0000 L CNN
-F 2 "" H 8638 7050 50  0001 C CNN
-F 3 "~" H 8600 7200 50  0001 C CNN
-	1    8600 7200
+U 1 1 5FCD446A
+P 7850 7250
+F 0 "C?" H 7965 7296 50  0000 L CNN
+F 1 "C" H 7965 7205 50  0000 L CNN
+F 2 "" H 7888 7100 50  0001 C CNN
+F 3 "~" H 7850 7250 50  0001 C CNN
+	1    7850 7250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C30
-U 1 1 5FCF691F
-P 8350 6300
-F 0 "C30" V 8450 6100 50  0000 L CNN
-F 1 "10n" V 8250 6100 50  0000 L CNN
-F 2 "" H 8388 6150 50  0001 C CNN
-F 3 "~" H 8350 6300 50  0001 C CNN
-	1    8350 6300
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7450 6950 7300 6950
-Wire Wire Line
-	8650 6950 8600 6950
-Wire Wire Line
-	8600 7050 8600 6950
-Connection ~ 8600 6950
-Wire Wire Line
-	8600 6950 8550 6950
-Wire Wire Line
-	8250 6950 8200 6950
-Wire Wire Line
-	7850 6950 7800 6950
-Wire Wire Line
-	7800 7050 7800 6950
-Connection ~ 7800 6950
-Wire Wire Line
-	7800 6950 7750 6950
-Wire Wire Line
-	7300 7250 7300 6950
-Connection ~ 7300 6950
-Wire Wire Line
-	7300 6950 7200 6950
-Wire Wire Line
-	8200 6950 8200 6300
-Connection ~ 8200 6950
-Wire Wire Line
-	8200 6950 8150 6950
-Wire Wire Line
-	8650 6750 8600 6750
-Wire Wire Line
-	8600 6750 8600 6300
-Wire Wire Line
-	8600 6300 8500 6300
 $EndSCHEMATC
