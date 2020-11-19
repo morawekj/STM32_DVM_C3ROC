@@ -4151,7 +4151,7 @@ F 3 "~" H 4000 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power_Protection:USBLC6-2SC6 U3
+L STM32_DVM_C3ROC-rescue:USBLC6-2SC6-Power_Protection U3
 U 1 1 5FBA17F6
 P 10500 1500
 F 0 "U3" V 10350 1050 50  0000 R CNN
@@ -4170,7 +4170,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 1000 10750 1000
 $Comp
-L Power_Protection:USBLC6-2SC6 U4
+L STM32_DVM_C3ROC-rescue:USBLC6-2SC6-Power_Protection U4
 U 1 1 5FE093D7
 P 10500 2750
 F 0 "U4" V 10350 2300 50  0000 R CNN
@@ -4251,7 +4251,7 @@ USB_D-
 Text GLabel 5250 4650 2    50   BiDi ~ 0
 USB_D+
 $Comp
-L Power_Protection:USBLC6-2SC6 U2
+L STM32_DVM_C3ROC-rescue:USBLC6-2SC6-Power_Protection U2
 U 1 1 60427054
 P 5000 5150
 F 0 "U2" V 4850 4700 50  0000 R CNN
