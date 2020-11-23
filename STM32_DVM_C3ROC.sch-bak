@@ -3572,7 +3572,7 @@ Wire Wire Line
 Wire Wire Line
 	15000 7550 14850 7550
 Text GLabel 14400 6150 0    50   Input ~ 0
-PTT_R
+PTT
 Wire Wire Line
 	14400 6150 14500 6150
 $Comp
@@ -4310,6 +4310,50 @@ F 1 "IQXO-70" H 2300 4700 50  0000 L CNN
 F 2 "Oscillator:Oscillator_SMD_IQD_IQXO70-4Pin_7.5x5.0mm" H 2775 4775 50  0001 C CNN
 F 3 "http://www.iqdfrequencyproducts.com/products/details/iqxo-70-11-30.pdf" H 2000 5100 50  0001 C CNN
 	1    2100 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5FD1BE6A
+P 14800 950
+F 0 "H5" H 14650 1050 60  0000 C CNN
+F 1 "3mm" H 14800 800 60  0000 C CNN
+F 2 "project_footprints:NPTH_3mm_ID" H 14700 950 60  0001 C CNN
+F 3 "" H 14700 950 60  0001 C CNN
+	1    14800 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5FD60DEE
+P 15100 950
+F 0 "H6" H 14950 1050 60  0000 C CNN
+F 1 "3mm" H 15100 800 60  0000 C CNN
+F 2 "project_footprints:NPTH_3mm_ID" H 15000 950 60  0001 C CNN
+F 3 "" H 15000 950 60  0001 C CNN
+	1    15100 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5FDA5D25
+P 15400 950
+F 0 "H7" H 15250 1050 60  0000 C CNN
+F 1 "3mm" H 15400 800 60  0000 C CNN
+F 2 "project_footprints:NPTH_3mm_ID" H 15300 950 60  0001 C CNN
+F 3 "" H 15300 950 60  0001 C CNN
+	1    15400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5FDEACF1
+P 15700 950
+F 0 "H8" H 15550 1050 60  0000 C CNN
+F 1 "3mm" H 15700 800 60  0000 C CNN
+F 2 "project_footprints:NPTH_3mm_ID" H 15600 950 60  0001 C CNN
+F 3 "" H 15600 950 60  0001 C CNN
+	1    15700 950 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
