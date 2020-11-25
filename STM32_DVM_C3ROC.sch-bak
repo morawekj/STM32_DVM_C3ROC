@@ -2187,7 +2187,7 @@ Wire Notes Line
 	15850 4200 11700 4200
 Wire Notes Line
 	11700 4200 11700 750 
-Text Notes 13200 900  0    50   ~ 0
+Text Notes 12900 1000 0    50   ~ 0
 Cut off LED and Display Connection
 Text GLabel 6850 4800 0    50   Input ~ 0
 TXA_R
